@@ -5,5 +5,7 @@ var ghpages = require('gh-pages');
 main();
 
 function main() {
-  ghpages.publish(path.join(__dirname, './site'), console.error.bind(console));
+  ghpages.publish(path.join(__dirname, './site'), {
+    branch: 'master'
+  }, console.error.bind(console));
 }
