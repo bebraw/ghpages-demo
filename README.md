@@ -1,4 +1,0 @@
-# ghpages demo
-
-Move along.
-
